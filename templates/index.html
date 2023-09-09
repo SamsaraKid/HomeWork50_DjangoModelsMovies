@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кино</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+<a href="{% url 'kinopoisk' %}"><button>загрузить базу Кинопоиск-250</button></a>
+
+<form action="add/" method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="добавить">
+</form>
+
+<form action="filter/" method="POST">
+    {% csrf_token %}
+    {{ filterform }}
+    <input type="submit" value="искать">
+</form>
+
+<a href="{% url 'filter' %}"><button>показать все</button></a>
+
+<table>
+    <tr>
+        <th>№</th>
+        <th>Название</th>
+        <th>Страна</th>
+        <th>Год</th>
+    </tr>
+    {% for movie in filtered %}
+        <tr>
+            <td>{{ movie.id }}</td>
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.country }}</td>
+            <td>{{ movie.year }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

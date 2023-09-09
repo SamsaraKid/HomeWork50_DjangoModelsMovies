@@ -1,0 +1,285 @@
+1694294227354	geckodriver	INFO	Listening on 127.0.0.1:63783
+1694294230402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63784" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofilel4XxE1"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294230631	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294230682	Marionette	INFO	Listening on port 63802
+WebDriver BiDi listening on ws://127.0.0.1:63784
+Read port: 63802
+1694294230840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63784/devtools/browser/df6c610b-3fd0-4cee-9f49-c2563bf916c5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294232812	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+1694294233302	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1694295306302	Marionette	INFO	Stopped listening on port 63802
+Dynamically enable window occlusion 1
+eadless" "--remote-debugging-port" "63980" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofilen8fL9u"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294285347	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294285403	Marionette	INFO	Listening on port 63996
+WebDriver BiDi listening on ws://127.0.0.1:63980
+Read port: 63996
+1694294285564	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63980/devtools/browser/236def37-d382-49dd-a030-6c6597001a08
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294287569	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+1694294287999	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1694295275000	Marionette	INFO	Stopped listening on port 63996
+Dynamically enable window occlusion 1
+eadless" "--remote-debugging-port" "64507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofilek3Grdd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294478948	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294479009	Marionette	INFO	Listening on port 64522
+WebDriver BiDi listening on ws://127.0.0.1:64507
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64507/devtools/browser/9729c6bd-bd2b-4251-a090-da4f84927ccf
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1694295276322	Marionette	INFO	Stopped listening on port 64522
+Dynamically enable window occlusion 1
+eadless" "--remote-debugging-port" "64589" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileGDlgPl"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294499405	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294499462	Marionette	INFO	Listening on port 64602
+WebDriver BiDi listening on ws://127.0.0.1:64589
+Read port: 64602
+1694294499626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64589/devtools/browser/95424905-4f55-49d6-b6e3-06a913f607bf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294502396	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+1694294503067	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://code.createjs.com/createjs-2015.11.26.min.js, line 13: Script terminated by timeout at:
+b.enableMouseOver/this._mouseOverIntervalID<@https://code.createjs.com/createjs-2015.11.26.min.js:13:14944
+
+1694295277293	Marionette	INFO	Stopped listening on port 64602
+Dynamically enable window occlusion 1
+.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294543370	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294543427	Marionette	INFO	Listening on port 64771
+WebDriver BiDi listening on ws://127.0.0.1:64757
+Read port: 64771
+1694294543565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64757/devtools/browser/aab41f58-d91f-4aee-87b3-c5eb348d557b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294545849	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+1694294546367	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1694295278797	Marionette	INFO	Stopped listening on port 64771
+Dynamically enable window occlusion 1
+eadless" "--remote-debugging-port" "64970" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofile1RcWqG"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294611031	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294611093	Marionette	INFO	Listening on port 64982
+WebDriver BiDi listening on ws://127.0.0.1:64970
+Read port: 64982
+1694294611282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64970/devtools/browser/9b17b47f-9e96-4d00-894e-4f385872326d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294614533	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694294615055	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1694295267723	Marionette	INFO	Stopped listening on port 64982
+Dynamically enable window occlusion 1
+eadless" "--remote-debugging-port" "65214" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofilegnmxes"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294684574	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294684638	Marionette	INFO	Listening on port 65227
+WebDriver BiDi listening on ws://127.0.0.1:65214
+Read port: 65227
+1694294684839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:65214/devtools/browser/d5319d16-de5e-453c-94e8-6f97c2f64c14
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294686843	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694294687518	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1694295265346	Marionette	INFO	Stopped listening on port 65227
+Dynamically enable window occlusion 1
+eadless" "--remote-debugging-port" "65418" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofiletD6nCZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294737851	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294737920	Marionette	INFO	Listening on port 65432
+WebDriver BiDi listening on ws://127.0.0.1:65418
+Read port: 65432
+1694294738126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:65418/devtools/browser/823a9a7e-d603-4449-9536-6f819e0c4122
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294739905	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694294740258	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://code.createjs.com/createjs-2015.11.26.min.js, line 13: Script terminated by timeout at:
+b.enableMouseOver/this._mouseOverIntervalID<@https://code.createjs.com/createjs-2015.11.26.min.js:13:14944
+
+1694295269780	Marionette	INFO	Stopped listening on port 65432
+Dynamically enable window occlusion 1
+.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294767201	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294767276	Marionette	INFO	Listening on port 49200
+WebDriver BiDi listening on ws://127.0.0.1:49187
+Read port: 49200
+1694294767472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49187/devtools/browser/4cc378b4-9b4c-4001-b300-9f3022310eaf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294769346	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694294769894	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1694295300576	Marionette	INFO	Stopped listening on port 49200
+Dynamically enable window occlusion 1
+eadless" "--remote-debugging-port" "49893" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofile9vYOxd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694294953695	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694294953766	Marionette	INFO	Listening on port 49902
+WebDriver BiDi listening on ws://127.0.0.1:49893
+Read port: 49902
+1694294953992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49893/devtools/browser/8aaf2c8b-dd60-4be0-8b4f-43f4423784cf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694294960853	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+1694294961916	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Shutting down due to socket process crash.
+1694295303265	Marionette	INFO	Stopped listening on port 49902
+Dynamically enable window occlusion 1
+fox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50165" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileFkZLmL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694295050192	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694295050274	Marionette	INFO	Listening on port 50183
+WebDriver BiDi listening on ws://127.0.0.1:50165
+Read port: 50183
+1694295050462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50165/devtools/browser/d71d2ba5-e8fc-4d23-a42d-24e7ba585fee
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694295053354	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694295054286	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: Script terminated by timeout at:
+b.dispatchEvent@https://code.createjs.com/createjs-2015.11.26.min.js:12:2641
+b.addChildAt@https://code.createjs.com/createjs-2015.11.26.min.js:13:8445
+c._addManagedChild@https://code.createjs.com/createjs-2015.11.26.min.js:14:2335
+c._updateTimeline@https://code.createjs.com/createjs-2015.11.26.min.js:14:1967
+c.advance@https://code.createjs.com/createjs-2015.11.26.min.js:14:882
+c._tick@https://code.createjs.com/createjs-2015.11.26.min.js:14:1046
+b._tick@https://code.createjs.com/createjs-2015.11.26.min.js:13:10592
+c._tick@https://code.createjs.com/createjs-2015.11.26.min.js:14:1071
+b._tick@https://code.createjs.com/createjs-2015.11.26.min.js:13:10592
+c._tick@https://code.createjs.com/createjs-2015.11.26.min.js:14:1071
+b._tick@https://code.createjs.com/createjs-2015.11.26.min.js:13:10592
+c._tick@https://code.createjs.com/createjs-2015.11.26.min.js:14:1071
+b._tick@https://code.createjs.com/createjs-2015.11.26.min.js:13:10592
+b.tick@https://code.createjs.com/createjs-2015.11.26.min.js:13:14071
+b.update@https://code.createjs.com/createjs-2015.11.26.min.js:13:13417
+b.handleEvent@https://code.createjs.com/createjs-2015.11.26.min.js:13:14159
+b._dispatchEvent@https://code.createjs.com/createjs-2015.11.26.min.js:12:3663
+b.dispatchEvent@https://code.createjs.com/createjs-2015.11.26.min.js:12:3056
+a._tick@https://code.createjs.com/createjs-2015.11.26.min.js:12:6852
+a._handleTimeout@https://code.createjs.com/createjs-2015.11.26.min.js:12:6140
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1694295297673	Marionette	INFO	Stopped listening on port 50183
+Dynamically enable window occlusion 1
+eadless" "--remote-debugging-port" "50573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofilepC7lZU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694295198392	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694295198467	Marionette	INFO	Listening on port 50587
+WebDriver BiDi listening on ws://127.0.0.1:50573
+Read port: 50587
+1694295198651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50573/devtools/browser/7e31dc1d-0d3f-4ca9-a4f3-cf27fa318ea9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694295200566	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694295200849	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: Script terminated by timeout at:
+a._handleTimeout@https://code.createjs.com/createjs-2015.11.26.min.js:12:6107
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag_turbo.js, line 57: Script terminated by timeout at:
+A/<@https://mc.yandex.ru/metrika/tag_turbo.js:57:163
+
+1694295273002	Marionette	INFO	Stopped listening on port 50587
+Dynamically enable window occlusion 1
+1694295348211	geckodriver	INFO	Listening on 127.0.0.1:50910
+1694295351260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50911" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileRL8zuO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694295351498	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694295351554	Marionette	INFO	Listening on port 50923
+WebDriver BiDi listening on ws://127.0.0.1:50911
+Read port: 50923
+1694295351712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50911/devtools/browser/ee8b9443-aa91-455c-acfb-94184e5f37bc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1694295353203	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694295353531	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694295365980	Marionette	INFO	Stopped listening on port 50923
+JavaScript warning: https://code.createjs.com/createjs-2015.11.26.min.js, line 13: Script terminated by timeout at:
+b.enableMouseOver/this._mouseOverIntervalID<@https://code.createjs.com/createjs-2015.11.26.min.js:13:14944
+
+JavaScript warning: https://www.kinopoisk.ru/lists/movies/top250/?page=5, line 1: Script terminated by timeout at:
+e.getSetting@https://www.kinopoisk.ru/lists/movies/top250/?page=5:1:13201
+n@https://www.kinopoisk.ru/lists/movies/top250/?page=5:1:8314
+
+Dynamically enable window occlusion 1
