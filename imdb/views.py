@@ -3,7 +3,7 @@ from .myforms import MovieForm, FilterForm
 from .models import MoviesDB
 from .botlib import getmovies
 
-filtered = None
+filtered = None  # для хранения отфильтрованной выборки
 
 
 def index(req):
@@ -45,7 +45,7 @@ def dbfilter(req):
     filtered = MoviesDB.objects.filter(**query_f).exclude(**query_e)
     return redirect('index')
 
-
+# заполняем базу данными из кинопоиска
 def kinopoisk(req):
     global filtered
     movies_list = getmovies()

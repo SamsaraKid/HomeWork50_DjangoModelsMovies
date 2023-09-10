@@ -1,13 +1,31 @@
 from django import forms
-from .movie_choices import get_choices
+from .models import MoviesDB
 
+# функция получения списков стран и годов из базы для фильтров
+def get_choices():
+    countries = ['']
+    years = []
 
+    for i in MoviesDB.objects.values('country').distinct():
+        countries.extend(list(i.values()))
+    countries.sort()
+    countries = tuple(zip(countries, countries))
+
+    for i in MoviesDB.objects.values('year').distinct():
+        years.extend(list(i.values()))
+    years.sort()
+    years.insert(0, '')
+    years = tuple(zip(years, years))
+
+    return countries, years
+
+# форма добавления фильма вручную
 class MovieForm(forms.Form):
     title = forms.CharField(label='Название', max_length=100)
     country = forms.CharField(label='Страна', max_length=100)
     year = forms.IntegerField(label='Год')
 
-
+# форма фильтра, переинициализируется при обновлении страницы, чтобы обновлять списки выбора в фильтрах
 class FilterForm(forms.Form):
     def __init__(self):
         super().__init__()

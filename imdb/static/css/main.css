@@ -1,0 +1,64 @@
+body{
+    background-color: cornsilk;
+    box-sizing: border-box;
+}
+
+p{
+    margin-top: 0;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.border-div{
+    border: 3px solid darkslategray;
+    padding: 10px;
+    width: 714px;
+    margin: 10px auto;
+}
+
+.margin-t{
+    margin-top: 10px;
+}
+
+.al-right{
+    width: max-content;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table th{
+    border: 3px solid darkslategray;
+}
+
+table td{
+    border: 1px solid darkslategray;
+}
+
+th:nth-child(1){
+    width: 20px;
+}
+
+th:nth-child(2){
+    width: 577px;
+}
+
+th:nth-child(3){
+    width: 109px;
+}
+
+th:nth-child(4){
+    width: 28px;
+}
+
+th:nth-child(1), td:nth-child(1){
+    text-align: center;
+}

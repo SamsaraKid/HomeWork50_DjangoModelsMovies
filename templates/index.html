@@ -8,38 +8,51 @@
 </head>
 <body>
 
-<a href="{% url 'kinopoisk' %}"><button>загрузить базу Кинопоиск-250</button></a>
+<div class="border-div">
+    <p>Добавить фильм:</p>
+    <form action="add/" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="добавить">
+    </form>
+    <div class="al-right margin-t">
+        <a href="{% url 'kinopoisk' %}">
+            <button>загрузить базу Кинопоиск-250</button>
+        </a>
+    </div>
+</div>
 
-<form action="add/" method="POST">
-    {% csrf_token %}
-    {{ form }}
-    <input type="submit" value="добавить">
-</form>
+<div class="flex-row border-div">
+    <form action="filter/" method="POST">
+        {% csrf_token %}
+        {{ filterform }}
+        <input type="submit" value="искать">
+    </form>
+    <div>
+        <a href="{% url 'filter' %}">
+            <button>показать все</button>
+        </a>
+    </div>
+</div>
 
-<form action="filter/" method="POST">
-    {% csrf_token %}
-    {{ filterform }}
-    <input type="submit" value="искать">
-</form>
-
-<a href="{% url 'filter' %}"><button>показать все</button></a>
-
-<table>
-    <tr>
-        <th>№</th>
-        <th>Название</th>
-        <th>Страна</th>
-        <th>Год</th>
-    </tr>
-    {% for movie in filtered %}
+<div class="border-div">
+    <table>
         <tr>
-            <td>{{ movie.id }}</td>
-            <td>{{ movie.title }}</td>
-            <td>{{ movie.country }}</td>
-            <td>{{ movie.year }}</td>
+            <th>№</th>
+            <th>Название</th>
+            <th>Страна</th>
+            <th>Год</th>
         </tr>
-    {% endfor %}
-</table>
+        {% for movie in filtered %}
+            <tr>
+                <td>{{ movie.id }}</td>
+                <td>{{ movie.title }}</td>
+                <td>{{ movie.country }}</td>
+                <td>{{ movie.year }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
 
 </body>
 </html>

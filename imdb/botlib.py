@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 
+# функции для скачивания базы фильмов из кинопоиска
 
 def driverprepare():
     print('Загружаем драйвер...')
